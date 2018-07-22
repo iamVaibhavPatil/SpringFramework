@@ -1,0 +1,9 @@
+guru:
+  jms:
+    username: vp
+    password: jmspass
+    url: http://123.12.23.45:9090  
+  db:
+    username: vp
+    password: dbpass
+    url: http://123.12.23.45:8080
