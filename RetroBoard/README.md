@@ -7,7 +7,7 @@ to demonstrate the basic application on ideas board for a team.
 - **Login**  
 It has login feature which is protected using default Spring Security intercepter page.  
 
-![Alt text](https://github.com/vaibhavpatilai/SpringFramework/blob/master/RetroBoard/login.jpg?raw=true "Login to Application")
+![Alt text](https://github.com/vaibhavpatilai/SpringFramework/blob/master/RetroBoard/login.JPG?raw=true "Login to Application")
 
 - **Dashboard**  
 Dashboard is basically shows all the ideas from different users and we can also post ideas which can be seen by other users.
@@ -30,3 +30,7 @@ OR Running using Spring Boot
 ```
 mvn clean spring-boot:run
 ```
+
+We can also check the entries in database after running application and adding some data.
+
+![Alt text](https://github.com/vaibhavpatilai/SpringFramework/blob/master/RetroBoard/db.JPG?raw=true "H2 DB")
