@@ -7,11 +7,26 @@ to demonstrate the basic application on ideas board for a team.
 - **Login**  
 It has login feature which is protected using default Spring Security intercepter page.  
 
-![Alt text](login.jpg?raw=true "Login to Application")
+![Alt text](https://github.com/vaibhavpatilai/SpringFramework/blob/master/RetroBoard/login.jpg?raw=true "Login to Application")
 
 - **Dashboard**  
 Dashboard is basically shows all the ideas from different users and we can also post ideas which can be seen by other users.
 
-![Alt text](comment.jpg?raw=true "Dashboard")
+![Alt text](https://github.com/vaibhavpatilai/SpringFramework/blob/master/RetroBoard/comment.JPG?raw=true "Dashboard")
 
 ### Running Application
+
+1. Download or clone the repo
+
+2. Run below cmd
+
+```
+mvn clean install
+java -jar target/RetroBoard-0.0.1-SNAPSHOT.jar
+```
+
+OR Running using Spring Boot
+
+```
+mvn clean spring-boot:run
+```
